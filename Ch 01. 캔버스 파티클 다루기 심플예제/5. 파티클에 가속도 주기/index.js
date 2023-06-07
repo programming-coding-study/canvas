@@ -15,6 +15,7 @@ canvas.width = canvasWidth * dpr;
 canvas.height = canvasWidth * dpr;
 ctx.scale(dpr, dpr);
 
+// constructor 메서드 : 클래스의 인스턴스 객체를 생성하고 초기화하는 특별한 메서드
 class Particle {
   constructor(x, y, radius, vy) {
     this.x = x;
